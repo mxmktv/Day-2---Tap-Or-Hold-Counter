@@ -10,7 +10,6 @@ import UIKit
 class ViewController: UIViewController {
     var counter = 0
     var timer: Timer?
-    var lastPressTime = Date().timeIntervalSince1970
 
     @IBOutlet weak var button: UIButton!
     @IBOutlet weak var counterLabel: UILabel!
